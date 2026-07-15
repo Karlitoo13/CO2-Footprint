@@ -1,62 +1,56 @@
-<!doctype html>
-<html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Informationen – CO2-Footprint</title>
-    <meta name="description" content="Grundgerüst einer deutschen Informationsseite zum CO2-Footprint">
-    <style>
-      :root{font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color-scheme: light dark}
-      body{margin:0;padding:0;line-height:1.5}
-      header, footer{background:#f3f4f6;padding:1rem}
-      main{padding:1rem}
-      nav a{margin-right:1rem}
-      .container{max-width:900px;margin:0 auto}
-    </style>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <h1>CO2-Footprint</h1>
-        <p>Informationen und Hinweise zur Berechnung des CO2-Fußabdrucks</p>
-      </div>
-    </header>
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CO₂Track – Info</title>
+</head>
+<body>
 
+  <header>
     <nav>
-      <div class="container">
-        <a href="index.html">Startseite</a>
-        <a href="Info.html" aria-current="page">Info</a>
-        <a href="kontakt.html">Kontakt</a>
-      </div>
+      <a href="index.html">CO₂Track</a>
+      <button aria-label="Menü umschalten"></button>
+      <ul>
+        <li><a href="index.html">Start</a></li>
+        <li><a href="daten.html">Daten</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><button id="langToggle">عربى (RTL)</button></li>
+      </ul>
     </nav>
+  </header>
 
-    <main>
-      <div class="container">
-        <section>
-          <h2>Über diese Seite</h2>
-          <p>Dieses Grundgerüst ist auf Deutsch gehalten und eignet sich als Ausgangspunkt für weiterführende Inhalte rund um CO2-Berechnungen und Klimaschutz.</p>
-        </section>
+  <main>
 
-        <section>
-          <h2>Inhalt</h2>
-          <ul>
-            <li>Erklärung des CO2-Fußabdrucks</li>
-            <li>Methoden zur Berechnung</li>
-            <li>Tipps zur Reduktion von Emissionen</li>
-          </ul>
-        </section>
+    <section>
+      <h1>Über dieses Projekt</h1>
+      <p>CO₂Track ist ein studentisches Beispielprojekt für den Kurs
+         „Programmierung von Webanwendungsoberflächen“. Es demonstriert
+         ein responsives Layout, eine sortier- und filterbare Tabelle sowie
+         abgesicherte Eingabefelder.</p>
+    </section>
 
-        <section>
-          <h2>Datenschutz</h2>
-          <p>Beachten Sie bitte die Datenschutzbestimmungen, wenn Sie personenbezogene Daten erfassen.</p>
-        </section>
-      </div>
-    </main>
+    <section>
+      <h2>Verwendete Technik</h2>
+      <ul>
+        <li>HTML5 für die semantische Struktur</li>
+        <li>Bootstrap 5 für ein responsives Layout</li>
+        <li>JavaScript für Suche, Filter und Sortierung</li>
+        <li>Umschaltung der Schriftkultur (LTR/RTL)</li>
+      </ul>
+    </section>
 
-    <footer>
-      <div class="container">
-        <p>&copy; 2026 CO2-Footprint — Alle Rechte vorbehalten.</p>
-      </div>
-    </footer>
-  </body>
+  </main>
+
+  <footer>
+    <p>CO₂Track</p>
+    <p>Fiktives Demonstrationsprojekt einer Non-Profit-Organisation.</p>
+    <p>
+      <a href="#">Impressum</a> ·
+      <a href="#">Datenschutz</a> ·
+      <span>© 2025 CO₂Track</span>
+    </p>
+  </footer>
+
+</body>
 </html>
