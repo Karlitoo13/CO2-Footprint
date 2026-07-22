@@ -1,0 +1,23 @@
+section {
+    scroll-margin-top: 90px;
+}
+@media(min-width: 992px){
+    .position-lg-sticky {
+        position: sticky;
+    }
+}
+th [data-sort] {
+    cursor: pointer;
+    user-select: none; /* Verhindert das Markieren des Textes beim Klicken */
+    white-space: nowrap; /* Verhindert das Umbrechen des Textes */
+}
+th [data-sort] i {
+    opacity: 0.4; /* Leicht transparent, um anzuzeigen, dass es sich um ein Symbol handelt */
+}
+th.sortiert i {
+    opacity: 1; /* Volle Deckkraft, wenn die Spalte sortiert ist */
+}
+html[dir="rtl"] .table th,
+html[dir="rtl"] .table td {
+    text-align: right; /* Text rechtsbündig für RTL */
+}
