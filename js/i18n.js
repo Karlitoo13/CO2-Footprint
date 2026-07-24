@@ -39,7 +39,7 @@ const UEBERSETZUNGEN = {
         footer_text:"Fiktives Demonstrationsprojekt einer Non-Profit-Organisation.",
         footer_impressum:"Impressum",
         footer_datenschutz:"Datenschutz",
-        footer_copyright:" 2025 CO₂Track"
+        footer_copyright:" 2026 CO₂Track"
     },
     ar:{
         nav_start: "البداية",
@@ -81,7 +81,7 @@ const UEBERSETZUNGEN = {
         footer_text:"مشروع عرض وهمي لمنظمة غير ربحية.",
         footer_impressum:"إشعار قانوني",
         footer_datenschutz:"سياسة الخصوصية",
-        footer_copyright:" 2025 CO₂Track"   
+        footer_copyright:" 2026 CO₂Track"   
     }
 };
 
