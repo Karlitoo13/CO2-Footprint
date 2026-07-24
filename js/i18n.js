@@ -21,7 +21,7 @@ const UEBERSETZUNGEN = {
         suche_label:"Suche (Unternehmen/Land)",
         suche_ph:"z.B. Deutschland",
         filter_label:"Nach Land filtern",
-        filter_alle:"Alle Länder",
+        filter_option_alle:"Alle Länder",
         th_land:"Land",
         th_unternehmen:"Unternehmen",
         th_branche:"Branche",
